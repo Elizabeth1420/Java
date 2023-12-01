@@ -48,5 +48,9 @@ public class Song {        //created song class
     public String getInfo() {
         return songTitle + " " +  artistName + " " + playCount; 
     }
+
+    public int indexOf(String songToRemove) {
+        return 0;
+    }
 }
 

@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Welcome to Spotify!"); //into 
       int userInput; //userinput can be accessed outside of do while loop 
         do{ 
-        System.out.println("What would you like to do?");
+        //System.out.println("What would you like to do?");
          
 
         System.out.println("Enter 1 to add a song \n" //introduction for userinput 
@@ -26,7 +26,7 @@ public class Main {
        switch (userInput) 
         {
         case 1: getLibrary.addSongs();break; 
-        case 2: System.out.println("The song has now been removed!");break; 
+        case 2: System.out.println("What song would you like to remove?");break;
         case 3:
          System.out.println("Here's the library");
          getLibrary.printSongs();break; 
