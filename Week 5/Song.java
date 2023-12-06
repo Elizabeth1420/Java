@@ -52,5 +52,9 @@ public class Song {        //created song class
     public int indexOf(String songToRemove) {
         return 0;
     }
+
+    public static String remove(int i) {
+        return null;
+    }
 }
 

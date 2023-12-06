@@ -48,7 +48,7 @@ public class Library {
 
     ///////////////////////////////////////////////////////////////////////////////
 
-    public Library(ArrayList<String> removedSong) { 
+   /*  public class Removesongs (ArrayList<String> removedSong) { 
         songs = removedSong; 
     }
 
@@ -62,8 +62,7 @@ public class Library {
         for( int i = songs.size() -1; i >= 0; i--) {
             if(songs.get(i).indexOf(songToRemove) != -1)
                 {
-                   String tempRemoved = songs.remove(i);
-                   removedSongs.add(tempRemoved);
+                   String tempRemoved = songs.remove();
                     count++;
                 }
         }
@@ -104,4 +103,4 @@ public class Library {
 
 
          }
-        }        
+              

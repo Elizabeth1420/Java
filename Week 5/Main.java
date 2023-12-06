@@ -26,7 +26,9 @@ public class Main {
        switch (userInput) 
         {
         case 1: getLibrary.addSongs();break; 
-        case 2: System.out.println("What song would you like to remove?");break;
+        case 2: 
+        System.out.println("What song would you like to remove?");break;
+        getLibrary.removeSong();break;
         case 3:
          System.out.println("Here's the library");
          getLibrary.printSongs();break; 
