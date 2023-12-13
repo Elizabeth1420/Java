@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Song {        //created song class
     public String songTitle;
     public String artistName; 
@@ -55,6 +53,10 @@ public class Song {        //created song class
 
     public static String remove(int i) {
         return null;
+    }
+
+    public boolean contains(String songToRemove) {
+        return false;
     }
 }
 
