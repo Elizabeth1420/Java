@@ -33,7 +33,7 @@ public class Library {
         Random rand = new Random();
         int playCount = rand.nextInt(50000000);
 
-        Song userSong = new Song(songTitle, artistName, playCount); //setting arraylist of artistname, song titile and playvpunt stpred in library 
+        Song userSong = new Song(songTitle, artistName, playCount); //setting arraylist of artistname, song titile and playcount stored in library 
         songs.add(userSong);
 
 

@@ -1,4 +1,4 @@
-public class Song {      //created song class
+public class Song {  //created song class
     public String songTitle;
     public String artistName; 
     public int playCount;
