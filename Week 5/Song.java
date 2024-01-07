@@ -3,7 +3,7 @@ public class Song {  //created song class
     public String artistName; 
     public int playCount;
 
-    public Song (String songTitle, String artistName, int playCount){ //created a arraylist for the song title, artist namr and playcount in library
+    public Song (String songTitle, String artistName, int playCount){ //created a arraylist for the song title, artist name and playcount in library
         this.songTitle = songTitle;
         this.artistName = artistName; 
         this.playCount = playCount;

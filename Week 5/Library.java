@@ -23,7 +23,7 @@ public class Library {
     public void addSongs() { // method to add songs in the library
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What is the song title?"); // priniting user input instructions 
+        System.out.println("What is the song title?"); // printing user input instructions 
         String songTitle = scanner.nextLine();
 
         System.out.println("What's the artist's name?");
@@ -33,7 +33,7 @@ public class Library {
         Random rand = new Random();
         int playCount = rand.nextInt(50000000);
 
-        Song userSong = new Song(songTitle, artistName, playCount); //setting arraylist of artistname, song titile and playcount stored in library 
+        Song userSong = new Song(songTitle, artistName, playCount); //setting arraylist of artistname, song title and playcount stored in library 
         songs.add(userSong);
 
 
@@ -106,15 +106,7 @@ public class Library {
         }
     }
 
-    //  option 4 - getting song by playcount numbers
-    public void playCount() {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a playcount of any song"); //user inputing a playcount number 
-        int userInput = scanner.nextInt();
-        scanner.nextLine();
-        for (int i = songs.size() - 1; i >= 50000000; i--);
-    } 
         // Option 4 
     public Song searchSongs() { // method to search for songs with the playcount from the library
         Scanner scanner = new Scanner(System.in);
